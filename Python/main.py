@@ -1,19 +1,15 @@
-# Python program to find the factorial of a number provided by the user.
+# Program to display calendar of the given month and year
 
-# change the value for a different result
-num = 7
+# importing calendar module
+import calendar
 
-# To take input from the user
-#num = int(input("Enter a number: "))
+yy = 2014  # year
+mm = 11    # month
 
-factorial = 1
+# To take month and year input from the user
+# yy = int(input("Enter year: "))
+# mm = int(input("Enter month: "))
 
-# check if the number is negative, positive or zero
-if num < 0:
-   print("Sorry, factorial does not exist for negative numbers")
-elif num == 0:
-   print("The factorial of 0 is 1")
-else:
-   for i in range(1,num + 1):
-       factorial = factorial*i
-   print("The factorial of",num,"is",factorial)
+# display the calendar
+print(calendar.month(yy, mm))
+
