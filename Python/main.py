@@ -1,7 +1,4 @@
-import string
-print("Alphabet from a-z:")
-for letter in string.ascii_lowercase:
-   print(letter, end =" ")
-print("\nAlphabet from A-Z:")
-for letter in string.ascii_uppercase:
-   print(letter, end =" ")
+i = 1
+while(i<=10):
+    print(i)
+    i += 1
