@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Docker Run Container') {
             steps {
-                sh 'docker run --name myapp -d -p 443:80 myapp'
+                sh 'docker run --name myapp -d -p 80:80 myapp'
                 sh 'docker tag myapp raam043/myapp:latest'
             }
         }
