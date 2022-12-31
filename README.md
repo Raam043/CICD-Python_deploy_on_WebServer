@@ -22,3 +22,6 @@ yum install git -y
 ```
 
 Open Jenkins App using Public_IP and 8080 port ranga ex. `123.0.0.0:8080`
+Create `Pipeline` Project and us below `Jenkins Script`
+
+```sh
