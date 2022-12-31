@@ -1,5 +1,7 @@
 # CICD-Python_deploy_on_WebServer
 
+Release Linux server and install "Docker", "Python", "Jenkins" & "Git" applications.
+
 ```sh
 yum update -y
 yum install docker -y
@@ -18,3 +20,5 @@ systemctl enable jenkins
 systemctl start jenkins
 yum install git -y
 ```
+
+Open Jenkins App using Public_IP and 8080 port ranga ex. `123.0.0.0:8080`
